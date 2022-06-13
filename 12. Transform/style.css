@@ -1,0 +1,30 @@
+p {
+	font-size: 20px;
+	text-align: center;
+}
+
+/* 
+			scale (angka), scaleX(angka), scaleY(angka)
+			rotate(deg), roteteX(deg), rotateY(deg)
+			skew(deg), skewX(deg), skewY(deg)
+			translate(px), translateX(px), translateY(px)
+ */
+
+ .kotak{
+	 width: 200px;
+	 height: 200px;
+	 background-color: lightblue;
+	 margin: 50px auto 0;
+	 transition: 2s;
+	 -webkit-transition: 2s;
+	 -moz-transition: 2s;
+	 -ms-transition: 2s;
+	 -o-transition: 2s;
+}
+ .kotak:hover{
+	 transform: scale(3) rotate(360deg);
+	 -webkit-transform: scale(3) rotate(360deg);
+	 -moz-transform: scale(3) rotate(360deg);
+	 -ms-transform: scale(3) rotate(360deg);
+	 -o-transform: scale(3) rotate(360deg);
+}

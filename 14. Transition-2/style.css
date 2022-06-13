@@ -1,0 +1,73 @@
+.container {
+	width: 900px;
+	margin: 10px auto;
+	border: 5px solid black;
+}
+
+.kotak {
+	width: 100px;
+	height: 100px;
+	background-color: salmon;
+	margin: 10px 0;
+	text-align: center;
+	line-height: 100px;
+}
+
+.kotak1{
+	transition: margin-left 3s, transform 3s 2s, background-color 500ms 3s;
+	-webkit-transition: margin-left 3s, transform 3s 2s, background-color 500ms 3s;
+	-moz-transition: margin-left 3s, transform 3s 2s, background-color 500ms 3s;
+	-ms-transition: margin-left 3s, transform 3s 2s, background-color 500ms 3s;
+	-o-transition: margin-left 3s, transform 3s 2s, background-color 500ms 3s;
+}
+
+.kotak2{
+	transition: all 3s ease-in;
+	-webkit-transition: all 3s ease-in;
+	-moz-transition: all 3s ease-in;
+	-ms-transition: all 3s ease-in;
+	-o-transition: all 3s ease-in;
+}
+
+.kotak3{
+	transition: all 3s ease-out;
+	-webkit-transition: all 3s ease-out;
+	-moz-transition: all 3s ease-out;
+	-ms-transition: all 3s ease-out;
+	-o-transition: all 3s ease-out;
+}
+
+.kotak4{
+	transition: all 3s ease-in-out;
+	-webkit-transition: all 3s ease-in-out;
+	-moz-transition: all 3s ease-in-out;
+	-ms-transition: all 3s ease-in-out;
+	-o-transition: all 3s ease-in-out;
+}
+
+.kotak5{
+	transition: all 3s linear;
+	-webkit-transition: all 3s linear;
+	-moz-transition: all 3s linear;
+	-ms-transition: all 3s linear;
+	-o-transition: all 3s linear;
+}
+
+.kotak6{
+	transition: all 3s cubic-bezier(0.24, -0.35, 0.78, 1.46);
+	-webkit-transition: all 3s cubic-bezier(0.24, -0.35, 0.78, 1.46);
+	-moz-transition: all 3s cubic-bezier(0.24, -0.35, 0.78, 1.46);
+	-ms-transition: all 3s cubic-bezier(0.24, -0.35, 0.78, 1.46);
+	-o-transition: all 3s cubic-bezier(0.24, -0.35, 0.78, 1.46);
+	
+}
+
+.container:hover .kotak {
+	transform: rotate(720deg);
+	-webkit-transform: rotate(720deg);
+	-moz-transform: rotate(720deg);
+	-ms-transform: rotate(720deg);
+	-o-transform: rotate(720deg);
+	margin-left: 800px;
+	background-color: crimson;
+}

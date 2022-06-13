@@ -1,0 +1,11 @@
+h1{
+	font-size: 100px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-shadow: 2px 2px 50px orange, 2px 2px 50px orange ;
+	text-align: center;
+	color: white;
+}
+
+body{
+	background-color: black;
+}

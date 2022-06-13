@@ -1,0 +1,14 @@
+
+
+
+@font-face {
+	font-family: "KaushanScript";
+	src: url(KaushanScript-Regular.otf);
+}
+
+
+h1{
+	font-size: 100px;
+	margin: auto;
+	font-family: "KaushanScript" , arial;
+}

@@ -1,0 +1,41 @@
+/* animation
+
+	[name] [duration] [timing-function] [delay] [iteration-count] [direction]
+	[fill-mode] [play-state]
+ */
+
+.kotak {
+	width: 200px;
+	height: 200px;
+	background-color: crimson;
+	animation: animasikotak 3s ease infinite alternate forwards;
+	-webkit-animation: animasikotak 3s ease infinite alternate forwards;
+
+}
+
+@keyframes animasikotak {
+	0% {
+		width: 200px;
+		height: 200px;
+	}
+
+	50% {
+		width: 500px;
+		height: 200px;
+	}
+
+	100% {
+		width: 500px;
+		height: 500px;
+		background-color: black;
+	}
+}
+
+
+/* value
+
+	[iteration-count] = angka | infinite
+	[direction] = normal | reverse | alternate | alternate-reverse
+	[fill-mode] = none | forwards | backwards | both
+	[play-state] = running | stop
+ */

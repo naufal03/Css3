@@ -1,0 +1,19 @@
+body{
+	background-image: url(moroccan-flower.png);
+}
+.satu{
+	background-color: orange;
+	position: relative;
+	width: 200px;
+	height: 200px;
+	opacity: .5;
+}
+
+.dua{
+	background-color: blue;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	right: -50px;
+	top: 150px
+}
